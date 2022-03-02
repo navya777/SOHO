@@ -1,0 +1,2813 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#"
+     xml:base="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontodebug="http://ainf.aau.at/ontodebug#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50">
+        <ontodebug:testCase>
+            <rdf:Description>
+                <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premature_deaths DisjointWith Sicker_patients</ontodebug:axiom>
+                <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+            </rdf:Description>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description>
+                <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fetal_complications DisjointWith Higher_surgery_rates</ontodebug:axiom>
+                <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+            </rdf:Description>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description>
+                <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor_housing SubClassOf Economic_Stability</ontodebug:axiom>
+                <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+            </rdf:Description>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description>
+                <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes SubClassOf Poor_housing</ontodebug:axiom>
+                <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+            </rdf:Description>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description>
+                <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes SubClassOf Food_Insecurity</ontodebug:axiom>
+                <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+            </rdf:Description>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description>
+                <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food_Insecurity SubClassOf Economic_Stability</ontodebug:axiom>
+                <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+            </rdf:Description>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description>
+                <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression SubClassOf Neighborhood_and_built_in_environment</ontodebug:axiom>
+                <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+            </rdf:Description>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description>
+                <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression SubClassOf ETOH_abuse</ontodebug:axiom>
+                <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+            </rdf:Description>
+        </ontodebug:testCase>
+        <ontodebug:testCase>
+            <rdf:Description>
+                <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor_pairing_of_team_members SubClassOf Harassment_from_officers</ontodebug:axiom>
+                <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+            </rdf:Description>
+        </ontodebug:testCase>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ainf.aau.at/ontodebug#axiom -->
+
+    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#axiom">
+        <rdfs:subPropertyOf rdf:resource="http://ainf.aau.at/ontodebug#testCase"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://ainf.aau.at/ontodebug#testCase -->
+
+    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#testCase"/>
+    
+
+
+    <!-- http://ainf.aau.at/ontodebug#type -->
+
+    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#type">
+        <rdfs:subPropertyOf rdf:resource="http://ainf.aau.at/ontodebug#testCase"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#based_on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#based_on">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Discrimination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Acces_to_speciality_care"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_preventive_care"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_qualified_physicians"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_screening"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Aggressive_Policing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Denied_care_at_assisted_living"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Denied_carrier_counseling"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emergency_service_wait_time"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inaccurate_diagnosis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Influence_biological_response"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_adequate_training"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_quality_maternal_fetal_health"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lower_employment_programs"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Mass_incarceration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Medication_error"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_foster_collaboration"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Providers_linguistic_and_cultural_competency"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Substandard_care_in_day_care"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unsafe_clinical_facility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unsafe_clinical_practice"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due___to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due___to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due__to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due__to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Defensive_medicine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Healthcare_disparities"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_gov_funding"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Racial_segregation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_insurance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due_to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Bullying"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Criminal_activities"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Drug_abuse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Higher_stress_levels"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Homelessness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Insufficient_health_insurance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Low_employment_prospects"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lower_earning"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poverty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Social_impairment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#from">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Inflammation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cardiovascular_risk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Community_violence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Deteriorates_immune_response"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emotional_distress"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Financial_stress"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_educational_performance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_distress"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_opportunity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Trauma_and_anxiety"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact___of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact___of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fetal_complications"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_cost"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_mortality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_surgery_rates"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Maternal_complications"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_deaths"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Sicker_patients"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Epispadias"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Exomphalos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Gastroschisis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Hypospadias"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Birth_defects"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cardiovascular_illness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Childhood_cancer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Chromosomal_anomalies"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#End_stage_renal_disease"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fetal_death"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_Birth_weight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Preterm_birth"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Renal_dysplasia"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Respiratory_illness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Spontaneous_abortion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Diabetes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Obesity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Stroke"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#ETOH_abuse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Heart_disease"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher__risk_pregnant_women"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Metabolic_disturbances"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_death"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Risk_of_malnutrition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Asthma"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Coughing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Wheezing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Risk_of_vector_borne_disease"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Inability_to_pay_for_medication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Losing_healthcare_coverage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emotional_well_being"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Physical_well_being"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_well_being"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impct_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impct_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Anxiety"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Less_physical_activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Pediatric_obesity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Physical_abuse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Post-traumatuc_stress_disorder"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Premature_mortality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Risk_of_substance_abuse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Sexual_violence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Suicide"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Unsafe_driving_behavior"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Affects_near_endocrine_system"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Depression"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Deteriorates_Immune_response"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#High"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Low"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Marginal"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Very_low"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#resulting_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#resulting_from">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_violence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_access_to_public_transportation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Limited_access_to_internet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Noise_exposure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Polluted_air"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_standard_of_water"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_hazardous_sites"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Residential_mobility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racism,_discrimination_and_violence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results___in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results___in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Homelessness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Orphanism"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cultural_factors"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Insufficient_educational_infrastructure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Insufficient_social_aid"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_income"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Natural_disaster"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_parenting"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racial_segregation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Substance_abuse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Amount_of_workload"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Commuting_time"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Degree_of_responsibility_and_accountability"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Harassment_from_officers"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#High_occupational_tree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Hygiene_factors"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Job_insecurity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_employee_benefits"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_remunerations"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_role_clarity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Outdated_technology"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Perceived_discrimination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Performance_management"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poor_leadership"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poor_pairing_of_team_members"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Work_culture_and_environment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Health_emergency"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#High_housing_cost"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#High_tax_burdens"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inability_to_enroll_in_federal_assistance"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lay_off"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_house_hold_income"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_wage_jobs"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racial_discrimination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Residential_instability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Allergens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Allergens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Amount_of_workload -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Amount_of_workload">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Anxiety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Anxiety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Asbestos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Asbestos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Asthma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Asthma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Bullying -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Bullying">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Cardiovascular_disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Cardiovascular_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Physical_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Commuting_time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Commuting_time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Contamination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Contamination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Coughing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Coughing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Criminal_activities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Criminal_activities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Crowding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Crowding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Defensive_medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Defensive_medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Degree_of_responsibility_and_accountability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Degree_of_responsibility_and_accountability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Diabetes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Discrimination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Discrimination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Drug_abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Drug_abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Physical_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Epispadias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Epispadias">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Exomphalos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Exomphalos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Explosion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Explosion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Fluctuating_weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Fluctuating_weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Frustrations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Frustrations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Gastroschisis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Gastroschisis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Harassment_from_officers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Harassment_from_officers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Healthcare_disparities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Healthcare_disparities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#High -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#High">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#High_occupational_tree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#High_occupational_tree">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Higher_stress_levels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Higher_stress_levels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Homelessness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Homelessness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Hygiene_factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Hygiene_factors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Hypospadias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Hypospadias">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Inability_to_pay_for_medication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Inability_to_pay_for_medication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Inflammation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Inflammation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Insufficient_health_insurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Insufficient_health_insurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Job_insecurity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Job_insecurity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_employee_benefits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_employee_benefits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_gov_funding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_gov_funding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_remunerations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_remunerations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_role_clarity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_role_clarity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Less_physical_activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Less_physical_activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Losing_healthcare_coverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Losing_healthcare_coverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Low_employment_prospects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Low_employment_prospects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lower_earning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lower_earning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Marginal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Marginal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Metabolic_disorder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Metabolic_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Physical_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Mold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Mold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Negative_emotions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Negative_emotions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Obesity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Obesity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Orphanism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Orphanism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Outdated_technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Outdated_technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Paranoia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Paranoia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Pediatric_obesity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Pediatric_obesity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Perceived_discrimination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Perceived_discrimination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Performance_management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Performance_management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Physical_abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Physical_abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poor_leadership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poor_leadership">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poor_pairing_of_team_members -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poor_pairing_of_team_members">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Harassment_from_officers"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Post-traumatuc_stress_disorder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Post-traumatuc_stress_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poverty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poverty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Premature_mortality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Premature_mortality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Racial_segregation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Racial_segregation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Radon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Radon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Risk_of_substance_abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Risk_of_substance_abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Risk_to_health_and_safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Risk_to_health_and_safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Sexual_violence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Sexual_violence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Social_impairment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Social_impairment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Spoilage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Spoilage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Stress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Stress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Stroke -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Stroke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Suicide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Suicide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Unsafe_driving_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Unsafe_driving_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Wheezing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Wheezing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Work_culture_and_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Work_culture_and_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Work_related_accidents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Work_related_accidents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Physical_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Acces_to_speciality_care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Acces_to_speciality_care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_preventive_care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_preventive_care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_qualified_physicians -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_qualified_physicians">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_screening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_screening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Affects_near_endocrine_system -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Affects_near_endocrine_system">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Aggressive_Policing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Aggressive_Policing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Anxiety_over_shopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Anxiety_over_shopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Birth_defects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Birth_defects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Carbon_Monoxide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Carbon_Monoxide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cardiovascular_illness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cardiovascular_illness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cardiovascular_risk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cardiovascular_risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Change_in_sleep_cycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Change_in_sleep_cycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Childhood_cancer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Childhood_cancer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Childless_adult_20hr_per_week_job -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Childless_adult_20hr_per_week_job">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inability_to_enroll_in_federal_assistance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Chromosomal_anomalies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Chromosomal_anomalies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Community_violence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Community_violence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cooking_practices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cooking_practices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cultural_factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cultural_factors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Damaged_appliances -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Damaged_appliances">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Denied_care_at_assisted_living -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Denied_care_at_assisted_living">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Denied_carrier_counseling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Denied_carrier_counseling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Depression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Depression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#ETOH_abuse"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emotional_well_being"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Mood_swings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Deteriorates_Immune_response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Deteriorates_Immune_response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Deteriorates_immune_response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Deteriorates_immune_response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Domestic_hygiene_and_pest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Domestic_hygiene_and_pest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Due_to_broadband_access_issues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Due_to_broadband_access_issues">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inability_to_enroll_in_federal_assistance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Dust_mites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Dust_mites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#ETOH_abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#ETOH_abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Economic_Stability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Economic_Stability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Electric_hazards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Electric_hazards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emergency_service_wait_time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emergency_service_wait_time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emotional_distress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emotional_distress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emotional_well_being -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emotional_well_being">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#End_stage_renal_disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#End_stage_renal_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Entrapment_or_collision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Entrapment_or_collision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposed_nails -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposed_nails">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_environmental_hazards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_environmental_hazards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_violence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_violence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fall_hazards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fall_hazards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fetal_complications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fetal_complications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fetal_death -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fetal_death">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Financial_stress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Financial_stress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Economic_Stability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fungal_spores -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fungal_spores">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Generalized_seizures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Generalized_seizures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#ETOH_abuse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#HOME -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#HOME">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_healthcare_equity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Health_emergency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Health_emergency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Heart_disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Heart_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#High_housing_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#High_housing_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#High_tax_burdens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#High_tax_burdens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher__risk_pregnant_women -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher__risk_pregnant_women">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_cost">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_mortality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_mortality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_surgery_rates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_surgery_rates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Immigration_status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Immigration_status">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inability_to_enroll_in_federal_assistance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inability_to_enroll_in_federal_assistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inability_to_enroll_in_federal_assistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inaccurate_diagnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inaccurate_diagnosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inadequate_budget_for_healthy_meal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inadequate_budget_for_healthy_meal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inadequate_plumbing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inadequate_plumbing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Income_above_poverty_level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Income_above_poverty_level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inability_to_enroll_in_federal_assistance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Influence_biological_response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Influence_biological_response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Instability_of_supply -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Instability_of_supply">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Insufficient_educational_infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Insufficient_educational_infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Insufficient_social_aid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Insufficient_social_aid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_access_to_public_transportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_access_to_public_transportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_adequate_training -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_adequate_training">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_air-conditioning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_air-conditioning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_insurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_insurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lay_off -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lay_off">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lead_paints -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lead_paints">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Limited_access_to_internet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Limited_access_to_internet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_Birth_weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_Birth_weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_educational_performance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_educational_performance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_house_hold_income -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_house_hold_income">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_income -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_income">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_quality_maternal_fetal_health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_quality_maternal_fetal_health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_wage_jobs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_wage_jobs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lower_employment_programs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lower_employment_programs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Malnutrition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Malnutrition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Mass_incarceration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Mass_incarceration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Maternal_complications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Maternal_complications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Medication_error -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Medication_error">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Metabolic_disturbances -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Metabolic_disturbances">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Mood_swings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Mood_swings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emotional_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Natural_disaster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Natural_disaster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Noise_exposure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Noise_exposure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Noise_level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Noise_level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Pest_Infestation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Pest_Infestation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Physical_well_being -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Physical_well_being">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Polluted_air -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Polluted_air">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_Storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_Storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_access_to_food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_access_to_food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_ergonomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_ergonomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_food_safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_food_safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_foster_collaboration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_foster_collaboration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Economic_Stability"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_nutrition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_nutrition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Physical_well_being"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_parenting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_parenting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_standard_of_water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_standard_of_water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Economic_Stability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_death -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_death">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_deaths -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_deaths">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Preterm_birth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Preterm_birth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Providers_linguistic_and_cultural_competency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Providers_linguistic_and_cultural_competency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_crematorium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_crematorium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_environmental_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_hazardous_sites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_hazardous_sites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_hazardous_waste_sites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_hazardous_waste_sites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_environmental_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_industrial_facilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_industrial_facilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_environmental_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_medical_services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_medical_services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_nuclear_plants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_nuclear_plants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_environmental_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_solid_waste_incinerators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_solid_waste_incinerators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_environmental_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_distress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_distress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_well_being -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_well_being">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_workplace_condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racial_discrimination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racial_discrimination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racial_segregation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racial_segregation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Renal_dysplasia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Renal_dysplasia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Residential_instability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Residential_instability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Residential_mobility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Residential_mobility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Respiratory_illness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Respiratory_illness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Risk_of_malnutrition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Risk_of_malnutrition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Risk_of_vector_borne_disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Risk_of_vector_borne_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Running_out_of_food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Running_out_of_food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Sicker_patients -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Sicker_patients">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_determinants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_determinants"/>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_opportunity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_opportunity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Spontaneous_abortion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Spontaneous_abortion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Structural_failure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Structural_failure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Student_status -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Student_status">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inability_to_enroll_in_federal_assistance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Substance_abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Substance_abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Educational_access_and_quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Substandard_care_in_day_care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Substandard_care_in_day_care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Threat_to_safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Threat_to_safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Trauma_and_anxiety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Trauma_and_anxiety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_and_community_factors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unavailability_of_food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unavailability_of_food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Uncombusted_fuel_gas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Uncombusted_fuel_gas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unsafe_clinical_facility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unsafe_clinical_facility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unsafe_clinical_practice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unsafe_clinical_practice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Healthcare_access_and_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Very_low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Very_low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Food_Insecurity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_determinants"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_healthcare_equity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_healthcare_equity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#of_healthcare_equity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_determinants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_Persistent_organic_pollutants(POP) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_Persistent_organic_pollutants(POP)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racism,_discrimination_and_violence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racism,_discrimination_and_violence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Neighborhood_and_built_in_environment"/>
+    </owl:Class>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premature_deaths DisjointWith Sicker_patients</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fetal_complications DisjointWith Higher_surgery_rates</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor_housing SubClassOf Economic_Stability</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes SubClassOf Poor_housing</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes SubClassOf Food_Insecurity</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food_Insecurity SubClassOf Economic_Stability</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression SubClassOf Neighborhood_and_built_in_environment</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression SubClassOf ETOH_abuse</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor_pairing_of_team_members SubClassOf Harassment_from_officers</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premature_deaths DisjointWith Sicker_patients</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fetal_complications DisjointWith Higher_surgery_rates</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor_housing SubClassOf Economic_Stability</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes SubClassOf Food_Insecurity</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes SubClassOf Poor_housing</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Food_Insecurity SubClassOf Economic_Stability</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression SubClassOf Neighborhood_and_built_in_environment</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression SubClassOf ETOH_abuse</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poor_pairing_of_team_members SubClassOf Harassment_from_officers</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Allergens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Asbestos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Asthma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Coughing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Mold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Radon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Wheezing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Carbon_Monoxide"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fungal_spores"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lead_paints"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Risk_of_vector_borne_disease"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Anxiety"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Fluctuating_weight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Frustrations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Negative_emotions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Paranoia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Stress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Change_in_sleep_cycle"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Anxiety"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Less_physical_activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Pediatric_obesity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Physical_abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Post-traumatuc_stress_disorder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Premature_mortality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Risk_of_substance_abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Sexual_violence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Suicide"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Unsafe_driving_behavior"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Affects_near_endocrine_system"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Depression"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Deteriorates_Immune_response"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Anxiety"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Less_physical_activity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Pediatric_obesity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Physical_abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Post-traumatuc_stress_disorder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Premature_mortality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Risk_of_substance_abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Sexual_violence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Suicide"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Unsafe_driving_behavior"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Affects_near_endocrine_system"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Depression"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Deteriorates_Immune_response"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_violence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_access_to_public_transportation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Limited_access_to_internet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Noise_exposure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Polluted_air"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_standard_of_water"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_hazardous_sites"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Residential_mobility"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racism,_discrimination_and_violence"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Bullying"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Criminal_activities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Drug_abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Higher_stress_levels"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Homelessness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Insufficient_health_insurance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Low_employment_prospects"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lower_earning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Orphanism"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poverty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Social_impairment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cultural_factors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Insufficient_educational_infrastructure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Insufficient_social_aid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_income"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Natural_disaster"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_parenting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racial_segregation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Substance_abuse"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Bullying"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Criminal_activities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Drug_abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Higher_stress_levels"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Homelessness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Insufficient_health_insurance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Low_employment_prospects"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lower_earning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Poverty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Social_impairment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_housing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Cardiovascular_disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Drug_abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Metabolic_disorder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Work_related_accidents"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_nutrition"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Contamination"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Spoilage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cooking_practices"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_Storage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_food_safety"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Crowding"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Diabetes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Epispadias"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Exomphalos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Explosion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Gastroschisis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Hypospadias"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Birth_defects"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cardiovascular_illness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Childhood_cancer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Chromosomal_anomalies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Damaged_appliances"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Domestic_hygiene_and_pest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Dust_mites"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Electric_hazards"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#End_stage_renal_disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Entrapment_or_collision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposed_nails"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_environmental_hazards"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_hazards"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fall_hazards"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fetal_death"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inadequate_plumbing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_air-conditioning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_Birth_weight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Noise_level"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Pest_Infestation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_ergonomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Preterm_birth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_medical_services"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Renal_dysplasia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Respiratory_illness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Spontaneous_abortion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Structural_failure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Threat_to_safety"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Uncombusted_fuel_gas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Exposure_to_Persistent_organic_pollutants(POP)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Defensive_medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Healthcare_disparities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Lack_of_gov_funding"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Racial_segregation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Acces_to_speciality_care"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_preventive_care"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_qualified_physicians"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_screening"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emergency_service_wait_time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fetal_complications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_cost"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_mortality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_surgery_rates"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inaccurate_diagnosis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_adequate_training"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_insurance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_quality_maternal_fetal_health"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Maternal_complications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Medication_error"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_deaths"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Providers_linguistic_and_cultural_competency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Sicker_patients"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unsafe_clinical_facility"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unsafe_clinical_practice"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Diabetes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#High"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Low"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Marginal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Obesity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Stroke"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Anxiety_over_shopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#ETOH_abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Health_emergency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Heart_disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#High_housing_cost"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#High_tax_burdens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher__risk_pregnant_women"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inability_to_enroll_in_federal_assistance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inadequate_budget_for_healthy_meal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Instability_of_supply"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lay_off"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_house_hold_income"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_wage_jobs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Malnutrition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Metabolic_disturbances"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_access_to_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_death"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racial_discrimination"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Residential_instability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Risk_of_malnutrition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Running_out_of_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unavailability_of_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Very_low"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Diabetes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Obesity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Stroke"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Anxiety_over_shopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#ETOH_abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Health_emergency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Heart_disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#High_housing_cost"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#High_tax_burdens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher__risk_pregnant_women"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inability_to_enroll_in_federal_assistance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inadequate_budget_for_healthy_meal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Instability_of_supply"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lay_off"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_house_hold_income"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_wage_jobs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Malnutrition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Metabolic_disturbances"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_access_to_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_death"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Racial_discrimination"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Residential_instability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Risk_of_malnutrition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Running_out_of_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unavailability_of_food"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Diabetes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Obesity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Stroke"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Anxiety_over_shopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#ETOH_abuse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Heart_disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher__risk_pregnant_women"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inadequate_budget_for_healthy_meal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Instability_of_supply"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Malnutrition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Metabolic_disturbances"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_access_to_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_death"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Risk_of_malnutrition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Running_out_of_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unavailability_of_food"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Discrimination"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Inflammation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Aggressive_Policing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cardiovascular_risk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Community_violence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Denied_care_at_assisted_living"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Denied_carrier_counseling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Deteriorates_immune_response"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emotional_distress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Financial_stress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Influence_biological_response"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_educational_performance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lower_employment_programs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Mass_incarceration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_foster_collaboration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_distress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_opportunity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Substandard_care_in_day_care"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Trauma_and_anxiety"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-48#Inflammation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Cardiovascular_risk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Community_violence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Deteriorates_immune_response"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emotional_distress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Financial_stress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_educational_performance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Psychological_distress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Social_opportunity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Trauma_and_anxiety"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Acces_to_speciality_care"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_preventive_care"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_qualified_physicians"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Access_to_screening"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Emergency_service_wait_time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Fetal_complications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_cost"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_mortality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Higher_surgery_rates"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inaccurate_diagnosis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Lack_of_adequate_training"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Low_quality_maternal_fetal_health"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Maternal_complications"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Medication_error"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Premature_deaths"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Providers_linguistic_and_cultural_competency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Sicker_patients"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unsafe_clinical_facility"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unsafe_clinical_practice"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Anxiety_over_shopping"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Inadequate_budget_for_healthy_meal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Instability_of_supply"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Malnutrition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_access_to_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Poor_utilization_of_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Running_out_of_food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Unavailability_of_food"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Childless_adult_20hr_per_week_job"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Due_to_broadband_access_issues"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Immigration_status"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Income_above_poverty_level"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Student_status"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_crematorium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_hazardous_waste_sites"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_industrial_facilities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_nuclear_plants"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#Proximity_to_solid_waste_incinerators"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#based_on"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due___to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due__to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due_to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#from"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact___of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impct_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#resulting_from"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results___in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#based_on"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due__to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due_to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#from"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact___of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impct_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#resulting_from"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results___in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#based_on"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due__to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due_to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact___of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impct_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#resulting_from"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results___in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#based_on"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due__to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due_to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact___of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impct_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results___in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#based_on"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due__to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due_to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact___of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results___in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#based_on"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due_to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact___of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results___in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due_to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact___of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results___in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#due_to"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impacts_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact__of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#impact_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#level_of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results__in"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/1/untitled-ontology-50#results_in"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
