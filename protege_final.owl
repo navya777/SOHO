@@ -1,0 +1,2254 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#"
+     xml:base="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontodebug="http://ainf.aau.at/ontodebug#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67">
+        <ontodebug:testCase>
+            <rdf:Description>
+                <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWLClass_af4eb7a5_2329_4f26_aa23_5b70cc2eb1b8 SubClassOf OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773</ontodebug:axiom>
+                <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+            </rdf:Description>
+        </ontodebug:testCase>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ainf.aau.at/ontodebug#axiom -->
+
+    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#axiom">
+        <rdfs:subPropertyOf rdf:resource="http://ainf.aau.at/ontodebug#testCase"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://ainf.aau.at/ontodebug#testCase -->
+
+    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#testCase"/>
+    
+
+
+    <!-- http://ainf.aau.at/ontodebug#type -->
+
+    <owl:AnnotationProperty rdf:about="http://ainf.aau.at/ontodebug#type">
+        <rdfs:subPropertyOf rdf:resource="http://ainf.aau.at/ontodebug#testCase"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_300965f1_2acd_4db6_b9b0_57ded8ac0d86 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_300965f1_2acd_4db6_b9b0_57ded8ac0d86">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_02816fb8_b066_4d9b_be1e_486159bf0b64"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0b89fefd_fc1d_4aa7_9b08_719946b50bad"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_1f08f1bf_f56c_4cd9_bb55_e233f69ab78f"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_55990335_bfab_48a7_afb2_1a7071647c00"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5eac7582_2a54_4f08_b208_e4177e8817f4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_60aa690b_7155_431b_b15a_78479a149813"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7285bbf2_05d8_4dd0_842f_dd5298f2cbd2"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_96e088d0_e39e_43f9_a3be_e200f0a7ce96"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9956120a_e557_45d2_8ef4_4ee76d949a2e"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9d33f3d2_5437_4e0e_88f7_cf9a44f4f7bb"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b1bb8fe5_f43e_430d_b32f_39798d687efb"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b5b7c1c8_ee73_4ebd_a83f_36e91f2056f1"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c6f1d6c8_8de1_4e47_b03a_3f113074b3f7"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e082a725_daf3_4f99_b61e_24228276807c"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e95118b4_bed1_4f24_bdcd_4f6ea2f65aa8"/>
+        <rdfs:label xml:lang="en">leads_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_463cbfb7_e0b0_477a_8ed6_700b88568f74 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_463cbfb7_e0b0_477a_8ed6_700b88568f74">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_023cccaa_9e78_43bb_af23_ddb220fdf542"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_370ab549_3b83_4191_936b_1e51151b14b5"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_79066994_e2e7_44ec_8455_6a9bcabd4337"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_befd3312_e339_43be_96a0_d4d6624ae9f0"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c3822f68_7d43_41a8_a60e_cfe2d58fa6d9"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_eadda55d_b8c9_419a_a308_c1c77635ffea"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f992a629_ae29_43f2_b085_a39c7c05e2b3"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">type_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_5bbf376d_f387_40ee_b462_b79abb81a55d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_5bbf376d_f387_40ee_b462_b79abb81a55d">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0d0b05e8_9877_4508_9da4_12a8a8810477"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5e871d47_7f30_4c12_911f_afa5659e87fa"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_68d00378_36f3_4079_8015_455940f7c177"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_acc934dd_06be_4d7f_a87e_8436025890eb"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f19a2884_d4fd_48ea_97b3_bc5a407fafae"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">effect_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_69b30c76_7b25_4bb6_9c7c_0adadbcf2fc6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_69b30c76_7b25_4bb6_9c7c_0adadbcf2fc6">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_007698b2_9c8e_4b44_8588_83a69889fe54"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_1d79d083_f6fb_4186_aa19_0530702fedb3"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2826fede_238d_41ea_8d13_b252df36a2dc"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_47d60ee1_752b_4ec6_902c_7a3002708ab6"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_74426860_3e45_46cf_80b0_9541fb48028e"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_dc33b530_2fc1_4727_9979_d87e6fe1b403"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e474733c_5018_4e01_a23d_03f913896602"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">results_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_6c13014f_f899_4d4a_a09c_d1803e1bc73e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_6c13014f_f899_4d4a_a09c_d1803e1bc73e">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_038129b3_8f42_4c51_bd1b_64bb173775e2"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_044935d8_a03c_4ffc_a694_663097289c24"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_40fc44f7_5511_4d3e_872f_5cdc963b2e6e"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_49038bde_4c07_4fb3_9305_0a38b46ce62e"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_98305abd_3de8_42e6_bfe6_5a365167b352"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b7bf0da6_7a74_4480_a5da_1a065431257c"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c3593862_4931_43e2_b823_66ede45f7167"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d73f6617_f08a_45ef_9b7b_013b9e1da8e4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">effect_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_752b211a_0ebb_4aa1_af39_562b8e6360fa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_752b211a_0ebb_4aa1_af39_562b8e6360fa">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_204948af_a953_46f3_82cb_6b05458fa98a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_389a77ea_bd9a_4ca4_971c_b184be8932ef"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_39319159_ae01_4c53_a2e5_b56d250ea149"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_41275f8e_f8fe_4037_b3ba_5d24fcab408d"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_440caa8b_e447_4222_b09d_681428d95722"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5dcae8d2_6630_4821_bc9c_c182c8e341ff"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7014e40b_b8e6_413a_b74e_30140aa7c827"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9b4ca24c_07dd_4351_bff9_1a33fabd5d38"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b302f99f_e216_43d4_9aa4_ad1b4773aa16"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e37962ab_eef6_4a0c_a5c4_cc32e27284cb"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e6b12e61_7f1a_4e88_9061_256344ede428"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">effect_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_8032c629_c3bd_4bdb_8637_910b7ebd2edb -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_8032c629_c3bd_4bdb_8637_910b7ebd2edb">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4c1a811d_7782_4779_8755_a80055ac3613"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_af4eb7a5_2329_4f26_aa23_5b70cc2eb1b8"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c4d3e79c_7cf5_4c19_ae75_ca07d24218b7"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">effect_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_8ed260e3_c805_43de_851b_3e5ef60d9a9a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_8ed260e3_c805_43de_851b_3e5ef60d9a9a">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_26fae236_5b62_4d5f_904a_147710bdd600"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_29a7d955_937c_4615_a948_7336c318e13c"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3ef7932c_0939_4812_a89e_c3640f30dfd9"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_703c0f62_0265_40cb_b963_80f051670497"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_81750193_e540_470e_98b2_565036f2b994"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c73c2dc4_8cea_473f_a29b_7bf6da34d387"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e2cffd93_c854_4fae_a1d3_2f58fb5c86dd"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_effbd4a2_8a6e_4bdf_8a65_4b3b4dc45145"/>
+        <rdfs:label xml:lang="en">based_on</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_ca8b671d_f455_46c7_80f0_80686c9c3b38 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_ca8b671d_f455_46c7_80f0_80686c9c3b38">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_13580195_6201_44c4_9ce5_2817165a0d12"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_20fdd9ef_2896_4da8_a05d_6b1e3db01a31"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3ba55da1_895d_4ee4_a9d7_5ade24dfef7b"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_577bd689_9ac3_479d_a9c1_328ee4fe237f"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6181540d_46c8_4f4c_a01d_bc2abae6664a"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7679379b_7527_4a1e_b012_4d56b31f7b19"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_87f270f0_16a1_4eb0_9921_b2d10f0ec2a0"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8e0a7324_b691_4af6_8298_efc6af4fc331"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b361582a_3f64_4168_a1f0_5929e3dd1043"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_fe312978_c5aa_43b7_b9ba_b21c71971ffa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">effect_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_e9c1a5bf_953f_41a3_96fc_47a74e630fe9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_e9c1a5bf_953f_41a3_96fc_47a74e630fe9">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_90d2a196_7b2a_4721_a5ba_441f2d637cb1"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a877f226_85d8_4f50_b37a_a9993a8aaea5"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b72737bc_0015_4b13_8bfe_f0d939025564"/>
+        <rdfs:label xml:lang="en">impact_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_ec5a7447_b67d_4156_8b47_b81ac5a7ca4f -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLObjectProperty_ec5a7447_b67d_4156_8b47_b81ac5a7ca4f">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_378bb682_0518_4f69_bcc0_e3752c380557"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_71eb2726_b32e_415e_8239_79eef5f46cd0"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7a0f5d1e_9b58_4b55_bf38_f19d0f85aa83"/>
+        <rdfs:label xml:lang="en">affect</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_007698b2_9c8e_4b44_8588_83a69889fe54 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_007698b2_9c8e_4b44_8588_83a69889fe54">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Health emergency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_014f7bd9_79d6_4202_b28a_81f6781f247d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_014f7bd9_79d6_4202_b28a_81f6781f247d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_370ab549_3b83_4191_936b_1e51151b14b5"/>
+        <rdfs:label xml:lang="en">Contamination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_023cccaa_9e78_43bb_af23_ddb220fdf542 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_023cccaa_9e78_43bb_af23_ddb220fdf542">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Poor access to food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_02816fb8_b066_4d9b_be1e_486159bf0b64 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_02816fb8_b066_4d9b_be1e_486159bf0b64">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Fetal death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_038129b3_8f42_4c51_bd1b_64bb173775e2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_038129b3_8f42_4c51_bd1b_64bb173775e2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Risk of malnutrition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_044935d8_a03c_4ffc_a694_663097289c24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_044935d8_a03c_4ffc_a694_663097289c24">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Stroke</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0684082e_0ce1_4277_a809_e22ff2dd468d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0684082e_0ce1_4277_a809_e22ff2dd468d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_115e6944_019a_4926_a1d7_6fda81adbb52"/>
+        <rdfs:label xml:lang="en">Economic Stability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_06fb058f_2447_4750_b321_539d45ebf92e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_06fb058f_2447_4750_b321_539d45ebf92e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Poor standard of water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_115e6944_019a_4926_a1d7_6fda81adbb52"/>
+        <rdfs:label xml:lang="en">Educational access and quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_08d3474f_4a0c_4471_80d0_cee0e6ca7b19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_08d3474f_4a0c_4471_80d0_cee0e6ca7b19">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_47d60ee1_752b_4ec6_902c_7a3002708ab6"/>
+        <rdfs:label xml:lang="en">Due to broadband access issues</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_099d9b8a_ccbb_4dd1_bb04_680395201bb3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_099d9b8a_ccbb_4dd1_bb04_680395201bb3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Carbon Monoxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_09f93e1f_2b63_4a14_aed5_a8fd5fc3df6e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_09f93e1f_2b63_4a14_aed5_a8fd5fc3df6e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Residential mobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0ac0a5a5_39ae_4881_b86b_9a66baa198f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0ac0a5a5_39ae_4881_b86b_9a66baa198f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Poor Foster collaboration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0b89fefd_fc1d_4aa7_9b08_719946b50bad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0b89fefd_fc1d_4aa7_9b08_719946b50bad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Chromosomal anomalies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0d0b05e8_9877_4508_9da4_12a8a8810477 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0d0b05e8_9877_4508_9da4_12a8a8810477">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Emotional stress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0684082e_0ce1_4277_a809_e22ff2dd468d"/>
+        <rdfs:label xml:lang="en">Food Insecurity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e605bd3_4010_4b51_aa94_5a4fc5822648 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e605bd3_4010_4b51_aa94_5a4fc5822648">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_370ab549_3b83_4191_936b_1e51151b14b5"/>
+        <rdfs:label xml:lang="en">Spoilage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_115e6944_019a_4926_a1d7_6fda81adbb52 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_115e6944_019a_4926_a1d7_6fda81adbb52">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8e20eb79_8a17_4485_8c40_66210459804f"/>
+        <rdfs:label xml:lang="en">of health</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_12d8ee92_99f7_474c_833b_0ee9342a63ef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_12d8ee92_99f7_474c_833b_0ee9342a63ef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a0dfddb1_4156_4793_bbbf_dde3f223b135"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_edb42815_1f25_4d96_937a_d6051519e1ae"/>
+        <rdfs:label xml:lang="en">Childhood center</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_13580195_6201_44c4_9ce5_2817165a0d12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_13580195_6201_44c4_9ce5_2817165a0d12">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Suicide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_15d21a89_33e3_40a7_846f_726f862dcfe1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_15d21a89_33e3_40a7_846f_726f862dcfe1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_af4eb7a5_2329_4f26_aa23_5b70cc2eb1b8"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a877f226_85d8_4f50_b37a_a9993a8aaea5"/>
+        <rdfs:label xml:lang="en">Mood swings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_19c3e874_2437_4e47_bcb8_a27cefcf15e0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_19c3e874_2437_4e47_bcb8_a27cefcf15e0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae9582c9_ec88_47ca_aad9_6d00dbb7c352"/>
+        <rdfs:label xml:lang="en">Acces to speciality care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_1d3467e1_93cf_4416_a738_85848a2f1970 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_1d3467e1_93cf_4416_a738_85848a2f1970">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Structural failure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_1d79d083_f6fb_4186_aa19_0530702fedb3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_1d79d083_f6fb_4186_aa19_0530702fedb3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Low house hold income</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_1f08f1bf_f56c_4cd9_bb55_e233f69ab78f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_1f08f1bf_f56c_4cd9_bb55_e233f69ab78f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Preterm birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_204948af_a953_46f3_82cb_6b05458fa98a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_204948af_a953_46f3_82cb_6b05458fa98a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Poverty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_20d556fb_dccb_404d_8189_ebeb93cc78bc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_20d556fb_dccb_404d_8189_ebeb93cc78bc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4c1a811d_7782_4779_8755_a80055ac3613"/>
+        <rdfs:label xml:lang="en">Negative emotions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_20fdd9ef_2896_4da8_a05d_6b1e3db01a31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_20fdd9ef_2896_4da8_a05d_6b1e3db01a31">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Post traumatic stress disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2406d4dd_ea77_4ca4_b949_f2690fead04d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2406d4dd_ea77_4ca4_b949_f2690fead04d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Dust mites</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2437b86d_169d_4eca_9e3d_38b892c18662 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2437b86d_169d_4eca_9e3d_38b892c18662">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4c1a811d_7782_4779_8755_a80055ac3613"/>
+        <rdfs:label xml:lang="en">Paranoia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_26fae236_5b62_4d5f_904a_147710bdd600 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_26fae236_5b62_4d5f_904a_147710bdd600">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Proximity to nuclear plants</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_27b03959_7c47_4bcc_a58b_85154dcb4cce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_27b03959_7c47_4bcc_a58b_85154dcb4cce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4c1a811d_7782_4779_8755_a80055ac3613"/>
+        <rdfs:label xml:lang="en">Fluctuating sleep cycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2803b396_3afd_4b8d_9c96_ba736b8a370a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2803b396_3afd_4b8d_9c96_ba736b8a370a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Allergens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2826fede_238d_41ea_8d13_b252df36a2dc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2826fede_238d_41ea_8d13_b252df36a2dc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">High tax burdens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_29a7d955_937c_4615_a948_7336c318e13c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_29a7d955_937c_4615_a948_7336c318e13c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Proximity to industrial facilities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_29aa2391_4b1c_4ffc_b647_4366216b5d43 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_29aa2391_4b1c_4ffc_b647_4366216b5d43">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_370ab549_3b83_4191_936b_1e51151b14b5"/>
+        <rdfs:label xml:lang="en">Poor food safety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_29fcd02e_0bc2_4aa8_9ea4_960d0c433100 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_29fcd02e_0bc2_4aa8_9ea4_960d0c433100">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c4d3e79c_7cf5_4c19_ae75_ca07d24218b7"/>
+        <rdfs:label xml:lang="en">Poor nutrition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2ae7e714_c203_481c_aba3_11273ec9b367 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2ae7e714_c203_481c_aba3_11273ec9b367">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae9582c9_ec88_47ca_aad9_6d00dbb7c352"/>
+        <rdfs:label xml:lang="en">Access to screening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2c9c0f2b_f1e1_4fdd_8442_71c092a0f00e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2c9c0f2b_f1e1_4fdd_8442_71c092a0f00e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Inadequate plumbing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2c9c7432_65c7_4619_b03e_53da0bd27a3b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2c9c7432_65c7_4619_b03e_53da0bd27a3b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Fungal spores</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2e608324_409f_4699_805e_e57736f480fc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2e608324_409f_4699_805e_e57736f480fc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Proximity to hazardous sites</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_308b8bf6_ab04_45ff_aab3_5cec5904abd3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_308b8bf6_ab04_45ff_aab3_5cec5904abd3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Financial stress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_336cfb35_91af_4b13_a5a8_f593b89941f2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_336cfb35_91af_4b13_a5a8_f593b89941f2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Wheezing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_33da7f5a_ca9b_4c77_a191_59e2a20b1817 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_33da7f5a_ca9b_4c77_a191_59e2a20b1817">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Entrapment or collision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_370ab549_3b83_4191_936b_1e51151b14b5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_370ab549_3b83_4191_936b_1e51151b14b5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Poor utilization of food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_378bb682_0518_4f69_bcc0_e3752c380557 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_378bb682_0518_4f69_bcc0_e3752c380557">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Mass incarceration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3794d3f6_1408_4a14_81ef_4e1994ac3692 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3794d3f6_1408_4a14_81ef_4e1994ac3692">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Electric hazards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_389a77ea_bd9a_4ca4_971c_b184be8932ef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_389a77ea_bd9a_4ca4_971c_b184be8932ef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Poor parenting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3907695e_db14_4178_a677_7fcf4fc9ad46 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3907695e_db14_4178_a677_7fcf4fc9ad46">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_47d60ee1_752b_4ec6_902c_7a3002708ab6"/>
+        <rdfs:label xml:lang="en">Childless adult 20hr per week job</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_39319159_ae01_4c53_a2e5_b56d250ea149 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_39319159_ae01_4c53_a2e5_b56d250ea149">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Drug abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3ba55da1_895d_4ee4_a9d7_5ade24dfef7b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3ba55da1_895d_4ee4_a9d7_5ade24dfef7b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Exposure to violence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3d91c985_9abc_42d6_a5d8_949397f787c7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3d91c985_9abc_42d6_a5d8_949397f787c7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Inability to pay for medication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3e21e6fa_2c89_4376_ac00_071a450757ea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3e21e6fa_2c89_4376_ac00_071a450757ea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c4d3e79c_7cf5_4c19_ae75_ca07d24218b7"/>
+        <rdfs:label xml:lang="en">Metabolic disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3eb67355_c99d_455e_9d2c_131b92f06e6c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3eb67355_c99d_455e_9d2c_131b92f06e6c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Limited social opportunity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3ef7932c_0939_4812_a89e_c3640f30dfd9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3ef7932c_0939_4812_a89e_c3640f30dfd9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Exposure to environmental hazards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_40fc44f7_5511_4d3e_872f_5cdc963b2e6e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_40fc44f7_5511_4d3e_872f_5cdc963b2e6e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Risk of diabetes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_41275f8e_f8fe_4037_b3ba_5d24fcab408d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_41275f8e_f8fe_4037_b3ba_5d24fcab408d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Insufficent health insurance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_43a7b706_9638_4db4_970e_4d14a5b98db6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_43a7b706_9638_4db4_970e_4d14a5b98db6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_370ab549_3b83_4191_936b_1e51151b14b5"/>
+        <rdfs:label xml:lang="en">Cooking practices</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_43aed4d9_86c4_4c55_829a_0e53317bce85 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_43aed4d9_86c4_4c55_829a_0e53317bce85">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_47d60ee1_752b_4ec6_902c_7a3002708ab6"/>
+        <rdfs:label xml:lang="en">Immigration status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_440caa8b_e447_4222_b09d_681428d95722 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_440caa8b_e447_4222_b09d_681428d95722">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Low employment prospects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_474d6501_0c3c_4f0f_a9b3_b644fe429a34 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_474d6501_0c3c_4f0f_a9b3_b644fe429a34">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Polluted air</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_47d60ee1_752b_4ec6_902c_7a3002708ab6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_47d60ee1_752b_4ec6_902c_7a3002708ab6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Inability to enroll in federal assistance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_48783ce9_57f3_4723_99d7_8b607908bc70 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_48783ce9_57f3_4723_99d7_8b607908bc70">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Malnutrition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_48c42a43_1a2c_4ce3_b09b_a36f2f286339 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_48c42a43_1a2c_4ce3_b09b_a36f2f286339">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Orphanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_49038bde_4c07_4fb3_9305_0a38b46ce62e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_49038bde_4c07_4fb3_9305_0a38b46ce62e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Higher  risk pregnant women</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4986c488_08c2_4604_833d_1d47928d97d5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4986c488_08c2_4604_833d_1d47928d97d5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae9582c9_ec88_47ca_aad9_6d00dbb7c352"/>
+        <rdfs:label xml:lang="en">Access to qualified physicians</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4c1a811d_7782_4779_8755_a80055ac3613 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4c1a811d_7782_4779_8755_a80055ac3613">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Psychological well being</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_511fe599_3536_4ccf_986a_1435e06ecb41 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_511fe599_3536_4ccf_986a_1435e06ecb41">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c4d3e79c_7cf5_4c19_ae75_ca07d24218b7"/>
+        <rdfs:label xml:lang="en">Work related accidents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5425d411_4791_4d34_871e_cf2c03085702 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5425d411_4791_4d34_871e_cf2c03085702">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Lack of employee benefits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_55990335_bfab_48a7_afb2_1a7071647c00 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_55990335_bfab_48a7_afb2_1a7071647c00">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Renal dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_577bd689_9ac3_479d_a9c1_328ee4fe237f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_577bd689_9ac3_479d_a9c1_328ee4fe237f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Risk of substance abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_591d4a58_b70f_486c_8af4_2e303cef99d4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_591d4a58_b70f_486c_8af4_2e303cef99d4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">High occupational tree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_598d6e78_3355_4e0b_9b10_b356381ab453 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_598d6e78_3355_4e0b_9b10_b356381ab453">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Sexual violence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5dcae8d2_6630_4821_bc9c_c182c8e341ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5dcae8d2_6630_4821_bc9c_c182c8e341ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Substance abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5dd91ed6_e253_41f6_9943_d5c5c39a86d5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5dd91ed6_e253_41f6_9943_d5c5c39a86d5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">High childhood lead poising</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5e871d47_7f30_4c12_911f_afa5659e87fa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5e871d47_7f30_4c12_911f_afa5659e87fa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Trauma and anxiety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5eac7582_2a54_4f08_b208_e4177e8817f4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5eac7582_2a54_4f08_b208_e4177e8817f4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">End stage renal disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6047524a_9fd5_4512_9100_c3257e48adb9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6047524a_9fd5_4512_9100_c3257e48adb9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Job insecurity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_60aa690b_7155_431b_b15a_78479a149813 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_60aa690b_7155_431b_b15a_78479a149813">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Childhood cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_60ae7511_8020_4a73_9c0c_56f1fc8ea5df -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_60ae7511_8020_4a73_9c0c_56f1fc8ea5df">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae9582c9_ec88_47ca_aad9_6d00dbb7c352"/>
+        <rdfs:label xml:lang="en">Low quality maternal fetal health</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_60d2df48_990d_4b2f_bdcb_ae3e94d7181b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_60d2df48_990d_4b2f_bdcb_ae3e94d7181b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Uncombusted fuel gas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6181540d_46c8_4f4c_a01d_bc2abae6664a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6181540d_46c8_4f4c_a01d_bc2abae6664a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Pediatric obesity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_63179a55_918b_4e8f_a226_5c55a17d4d8d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_63179a55_918b_4e8f_a226_5c55a17d4d8d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Noise level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_65b725ef_3d3e_498b_a4bb_9839c6b4da25 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_65b725ef_3d3e_498b_a4bb_9839c6b4da25">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Harassment from officers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_68d00378_36f3_4079_8015_455940f7c177 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_68d00378_36f3_4079_8015_455940f7c177">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_68ff7e0d_8031_4b60_b723_0fd522da87a8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_68ff7e0d_8031_4b60_b723_0fd522da87a8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Natural disaster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6af1958f_662b_43fe_8f23_95e76cb66ee6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6af1958f_662b_43fe_8f23_95e76cb66ee6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Homelessness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6c0d7b03_4c63_4c14_b397_d12a95d604e7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6c0d7b03_4c63_4c14_b397_d12a95d604e7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Aggressive Policing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6c84f1bd_adbc_4d45_9ea1_1af0a4bcd41c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6c84f1bd_adbc_4d45_9ea1_1af0a4bcd41c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4e45e5a_7e2e_4935_9510_4cc9941f5c97"/>
+        <rdfs:label xml:lang="en">HOME</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6de85f98_7908_497a_8efb_54ded0deb3cd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6de85f98_7908_497a_8efb_54ded0deb3cd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_47d60ee1_752b_4ec6_902c_7a3002708ab6"/>
+        <rdfs:label xml:lang="en">Income above poverty level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6e35a209_96cc_4288_8d22_0e30697c740e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6e35a209_96cc_4288_8d22_0e30697c740e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4c1a811d_7782_4779_8755_a80055ac3613"/>
+        <rdfs:label xml:lang="en">Stress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7014e40b_b8e6_413a_b74e_30140aa7c827 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7014e40b_b8e6_413a_b74e_30140aa7c827">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Drug abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_703c0f62_0265_40cb_b963_80f051670497 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_703c0f62_0265_40cb_b963_80f051670497">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Proximity to hazardous waste sites</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_71eb2726_b32e_415e_8239_79eef5f46cd0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_71eb2726_b32e_415e_8239_79eef5f46cd0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_378bb682_0518_4f69_bcc0_e3752c380557"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7a0f5d1e_9b58_4b55_bf38_f19d0f85aa83"/>
+        <rdfs:label xml:lang="en">Economic and social opportunity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7285bbf2_05d8_4dd0_842f_dd5298f2cbd2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7285bbf2_05d8_4dd0_842f_dd5298f2cbd2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Low Birth weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_72b4942a_50ae_49ae_afcf_2e02b823991f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_72b4942a_50ae_49ae_afcf_2e02b823991f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_370ab549_3b83_4191_936b_1e51151b14b5"/>
+        <rdfs:label xml:lang="en">Poor Storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_73ad6ae0_e9fc_4b9c_84f3_eb528e255d30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_73ad6ae0_e9fc_4b9c_84f3_eb528e255d30">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Poor ergonomics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_74426860_3e45_46cf_80b0_9541fb48028e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_74426860_3e45_46cf_80b0_9541fb48028e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Low wage jobs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7679379b_7527_4a1e_b012_4d56b31f7b19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7679379b_7527_4a1e_b012_4d56b31f7b19">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Physical abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_76a8fcbb_9fe7_4760_9cef_119661362b26 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_76a8fcbb_9fe7_4760_9cef_119661362b26">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Noise exposure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_78a8f240_a959_4691_8e80_dece994309b1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_78a8f240_a959_4691_8e80_dece994309b1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Limited carrier counseling oppurtunity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_79066994_e2e7_44ec_8455_6a9bcabd4337 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_79066994_e2e7_44ec_8455_6a9bcabd4337">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Running out of food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_79a914c0_2d7a_44fd_b6f9_ea2179bc337a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_79a914c0_2d7a_44fd_b6f9_ea2179bc337a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c4d3e79c_7cf5_4c19_ae75_ca07d24218b7"/>
+        <rdfs:label xml:lang="en">Cardiovascular disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7a0f5d1e_9b58_4b55_bf38_f19d0f85aa83 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7a0f5d1e_9b58_4b55_bf38_f19d0f85aa83">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_378bb682_0518_4f69_bcc0_e3752c380557"/>
+        <rdfs:label xml:lang="en">Children education</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7a2a1dc1_18b5_4173_ba49_4f23ea7ddfbe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7a2a1dc1_18b5_4173_ba49_4f23ea7ddfbe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Threat to safety</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7d55ca05_f5c4_44ed_8e0d_7b2aa3630635 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7d55ca05_f5c4_44ed_8e0d_7b2aa3630635">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4c1a811d_7782_4779_8755_a80055ac3613"/>
+        <rdfs:label xml:lang="en">Fluctuating weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_81750193_e540_470e_98b2_565036f2b994 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_81750193_e540_470e_98b2_565036f2b994">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Proximity to solid waste incinerators</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_84a847ae_ebb4_427a_9250_7a8eec1a0446 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_84a847ae_ebb4_427a_9250_7a8eec1a0446">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Poor employment programs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_87f270f0_16a1_4eb0_9921_b2d10f0ec2a0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_87f270f0_16a1_4eb0_9921_b2d10f0ec2a0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Premature mortality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8913977c_79d3_4962_8604_8060df38eca3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8913977c_79d3_4962_8604_8060df38eca3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Mold</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_895fca5f_2170_4580_a106_127eabc85195 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_895fca5f_2170_4580_a106_127eabc85195">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Asthma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_896d3361_9714_4f70_9347_0b6c55e3a39d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_896d3361_9714_4f70_9347_0b6c55e3a39d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_47d60ee1_752b_4ec6_902c_7a3002708ab6"/>
+        <rdfs:label xml:lang="en">Student status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8d01307e_4ae4_45e2_a9dd_1a7b703be51e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8d01307e_4ae4_45e2_a9dd_1a7b703be51e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Lead paints</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8dc3fe16_8e77_4965_93f1_dc419e5eb786 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8dc3fe16_8e77_4965_93f1_dc419e5eb786">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Commuting time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8e0a7324_b691_4af6_8298_efc6af4fc331 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8e0a7324_b691_4af6_8298_efc6af4fc331">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Deteriorates immune response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8e20eb79_8a17_4485_8c40_66210459804f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8e20eb79_8a17_4485_8c40_66210459804f">
+        <rdfs:label xml:lang="en">Social determinants</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_90d2a196_7b2a_4721_a5ba_441f2d637cb1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_90d2a196_7b2a_4721_a5ba_441f2d637cb1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b72737bc_0015_4b13_8bfe_f0d939025564"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a877f226_85d8_4f50_b37a_a9993a8aaea5"/>
+        <rdfs:label xml:lang="en">Generalized seizures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_92509b58_db20_4e25_ba58_d279f7265d98 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_92509b58_db20_4e25_ba58_d279f7265d98">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Damaged appliances</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_934bee90_0e23_41d4_b915_73316aa2a12d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_934bee90_0e23_41d4_b915_73316aa2a12d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Asbestos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_96e088d0_e39e_43f9_a3be_e200f0a7ce96 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_96e088d0_e39e_43f9_a3be_e200f0a7ce96">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Cardiovascular illness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_979e3efa_0f94_4f77_9f73_9951b826ec57 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_979e3efa_0f94_4f77_9f73_9951b826ec57">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Social impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_98305abd_3de8_42e6_bfe6_5a365167b352 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_98305abd_3de8_42e6_bfe6_5a365167b352">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Metabolic disturbances</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9956120a_e557_45d2_8ef4_4ee76d949a2e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9956120a_e557_45d2_8ef4_4ee76d949a2e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Spontaneous abortion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9b4ca24c_07dd_4351_bff9_1a33fabd5d38 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9b4ca24c_07dd_4351_bff9_1a33fabd5d38">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Higher stress levels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9c174939_c470_4c9e_b441_9bf107a7776b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9c174939_c470_4c9e_b441_9bf107a7776b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Amount of workload</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9d33f3d2_5437_4e0e_88f7_cf9a44f4f7bb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9d33f3d2_5437_4e0e_88f7_cf9a44f4f7bb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Respiratory illness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9ea34334_4b11_4548_a943_0ea3e018d2a3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9ea34334_4b11_4548_a943_0ea3e018d2a3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Lack of access to public transportation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9f3f22b4_702c_40dd_9f93_10a1c4342d4d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9f3f22b4_702c_40dd_9f93_10a1c4342d4d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Residential instability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a03bd9ad_81fd_4615_82a3_c3aaf6beb973 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a03bd9ad_81fd_4615_82a3_c3aaf6beb973">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Explosion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a0b9d5a9_dbf5_46cc_a42a_872280e7f8c7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a0b9d5a9_dbf5_46cc_a42a_872280e7f8c7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Exposed nails</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a0dfddb1_4156_4793_bbbf_dde3f223b135 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a0dfddb1_4156_4793_bbbf_dde3f223b135">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Substandard care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a2351695_67b9_4900_81df_ff73236d8d4d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a2351695_67b9_4900_81df_ff73236d8d4d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Degree of responsibility and accountability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Fall hazards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4e45e5a_7e2e_4935_9510_4cc9941f5c97 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4e45e5a_7e2e_4935_9510_4cc9941f5c97">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8e20eb79_8a17_4485_8c40_66210459804f"/>
+        <rdfs:label xml:lang="en">of health_equity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_115e6944_019a_4926_a1d7_6fda81adbb52"/>
+        <rdfs:label xml:lang="en">Neighborhood and built in environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a877f226_85d8_4f50_b37a_a9993a8aaea5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a877f226_85d8_4f50_b37a_a9993a8aaea5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_af4eb7a5_2329_4f26_aa23_5b70cc2eb1b8"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b72737bc_0015_4b13_8bfe_f0d939025564"/>
+        <rdfs:label xml:lang="en">Depression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a9848d8a_8b50_427c_a8fd_c0199442e712 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a9848d8a_8b50_427c_a8fd_c0199442e712">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Crowding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_abbbc2b4_b455_4f21_b926_f2da48813f58 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_abbbc2b4_b455_4f21_b926_f2da48813f58">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae9582c9_ec88_47ca_aad9_6d00dbb7c352"/>
+        <rdfs:label xml:lang="en">Providers linguistic and cultural competency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ac74c842_75a3_4fdf_8696_c0ce622f95f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ac74c842_75a3_4fdf_8696_c0ce622f95f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Poor leadership</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_acc934dd_06be_4d7f_a87e_8436025890eb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_acc934dd_06be_4d7f_a87e_8436025890eb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Cardiovascular risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ad2403d6_3907_4a0b_8f8d_a42ccd9e646f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ad2403d6_3907_4a0b_8f8d_a42ccd9e646f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Radon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae0343ea_b043_473d_bc5f_57190727ceb1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae0343ea_b043_473d_bc5f_57190727ceb1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Poor pairing of team members</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae9582c9_ec88_47ca_aad9_6d00dbb7c352 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae9582c9_ec88_47ca_aad9_6d00dbb7c352">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_115e6944_019a_4926_a1d7_6fda81adbb52"/>
+        <rdfs:label xml:lang="en">Healthcare access and quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_af4eb7a5_2329_4f26_aa23_5b70cc2eb1b8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_af4eb7a5_2329_4f26_aa23_5b70cc2eb1b8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Emotional well being</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b1bb8fe5_f43e_430d_b32f_39798d687efb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b1bb8fe5_f43e_430d_b32f_39798d687efb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Birth defects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b302f99f_e216_43d4_9aa4_ad1b4773aa16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b302f99f_e216_43d4_9aa4_ad1b4773aa16">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Bullying</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b361582a_3f64_4168_a1f0_5929e3dd1043 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b361582a_3f64_4168_a1f0_5929e3dd1043">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Less physical activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Exposure to hazards</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b5b7c1c8_ee73_4ebd_a83f_36e91f2056f1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b5b7c1c8_ee73_4ebd_a83f_36e91f2056f1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Exomphalos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b665e858_561d_4615_8c98_02d04ec90fea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b665e858_561d_4615_8c98_02d04ec90fea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Lower employment program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b6ae4878_1617_437a_b627_de445914752e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b6ae4878_1617_437a_b627_de445914752e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Lack of remunerations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b72737bc_0015_4b13_8bfe_f0d939025564 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b72737bc_0015_4b13_8bfe_f0d939025564">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0684082e_0ce1_4277_a809_e22ff2dd468d"/>
+        <rdfs:label xml:lang="en">ETOH abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b78cc10d_c757_4d37_8414_c996439e076a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b78cc10d_c757_4d37_8414_c996439e076a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Insufficient social aid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b7bf0da6_7a74_4480_a5da_1a065431257c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b7bf0da6_7a74_4480_a5da_1a065431257c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Obesity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_befd3312_e339_43be_96a0_d4d6624ae9f0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_befd3312_e339_43be_96a0_d4d6624ae9f0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Unavailability of food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_bf564d0b_50f1_4cd7_96c9_e1f8957153dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_bf564d0b_50f1_4cd7_96c9_e1f8957153dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Domestic hygiene and pest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_bf7b186c_8ec6_4b77_9be2_3f2c92defdb1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_bf7b186c_8ec6_4b77_9be2_3f2c92defdb1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Poor housing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c28fa68d_55a7_4116_9676_84613918c889 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c28fa68d_55a7_4116_9676_84613918c889">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Racial seggregation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c3593862_4931_43e2_b823_66ede45f7167 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c3593862_4931_43e2_b823_66ede45f7167">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Premature death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c3822f68_7d43_41a8_a60e_cfe2d58fa6d9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c3822f68_7d43_41a8_a60e_cfe2d58fa6d9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Anxiety over shopping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c4d3e79c_7cf5_4c19_ae75_ca07d24218b7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c4d3e79c_7cf5_4c19_ae75_ca07d24218b7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Physcial well being</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c6f1d6c8_8de1_4e47_b03a_3f113074b3f7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c6f1d6c8_8de1_4e47_b03a_3f113074b3f7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Gastroschisis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c7087649_e71b_4aab_ae32_95f0b79a5d2d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c7087649_e71b_4aab_ae32_95f0b79a5d2d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Hygiene factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c73c2dc4_8cea_473f_a29b_7bf6da34d387 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c73c2dc4_8cea_473f_a29b_7bf6da34d387">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Proximity to crematorium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0684082e_0ce1_4277_a809_e22ff2dd468d"/>
+        <rdfs:label xml:lang="en">Poor workplace condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c852c0a9_1af8_4f10_b249_59578752b66f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c852c0a9_1af8_4f10_b249_59578752b66f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Perceived discrimination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ca61ceee_4189_429a_b2b2_acddd869b93e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ca61ceee_4189_429a_b2b2_acddd869b93e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Coughing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_cb33812d_3d2a_451d_89c1_3f90fd297d7a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_cb33812d_3d2a_451d_89c1_3f90fd297d7a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Losing healthcare coverage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_cd987a7e_acde_4105_a12c_f4b84e3cca18 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_cd987a7e_acde_4105_a12c_f4b84e3cca18">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Outdated technology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d429d8bf_8e8a_46dc_8d51_187071336ffe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d429d8bf_8e8a_46dc_8d51_187071336ffe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Discrimination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d5e2047e_16e6_4210_8a22_b153948eed00 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d5e2047e_16e6_4210_8a22_b153948eed00">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Work culture and environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d65c356f_9c32_47cf_8c00_0cf4d8c768e7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d65c356f_9c32_47cf_8c00_0cf4d8c768e7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Lack of air-conditioning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d73f6617_f08a_45ef_9b7b_013b9e1da8e4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d73f6617_f08a_45ef_9b7b_013b9e1da8e4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Heart disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9a8b492_c08e_49a4_a504_885fdb7aed0d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9a8b492_c08e_49a4_a504_885fdb7aed0d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a4800e18_127d_496c_afcf_1ac5a60e265a"/>
+        <rdfs:label xml:lang="en">Pest Infestation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0684082e_0ce1_4277_a809_e22ff2dd468d"/>
+        <rdfs:label xml:lang="en">Poor Housing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_dc33b530_2fc1_4727_9979_d87e6fe1b403 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_dc33b530_2fc1_4727_9979_d87e6fe1b403">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Lay off</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_deb63c3f_8d79_4a19_9bf3_24004f0c2346 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_deb63c3f_8d79_4a19_9bf3_24004f0c2346">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae9582c9_ec88_47ca_aad9_6d00dbb7c352"/>
+        <rdfs:label xml:lang="en">Access to preventive care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e082a725_daf3_4f99_b61e_24228276807c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e082a725_daf3_4f99_b61e_24228276807c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Epispadias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e19896bc_e7cb_4da2_8416_fe1223de33f9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e19896bc_e7cb_4da2_8416_fe1223de33f9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+        <rdfs:label xml:lang="en">Risk of vector borne disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e2cffd93_c854_4fae_a1d3_2f58fb5c86dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e2cffd93_c854_4fae_a1d3_2f58fb5c86dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Exposure to Persistent organic pollutants(POP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e37962ab_eef6_4a0c_a5c4_cc32e27284cb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e37962ab_eef6_4a0c_a5c4_cc32e27284cb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Criminal activities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e379ca3a_d4df_4f48_b17c_0771d006cda1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e379ca3a_d4df_4f48_b17c_0771d006cda1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Limited internet access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e474733c_5018_4e01_a23d_03f913896602 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e474733c_5018_4e01_a23d_03f913896602">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">High housing cost</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e6b12e61_7f1a_4e88_9061_256344ede428 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e6b12e61_7f1a_4e88_9061_256344ede428">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Lower earning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e6c11338_7d9f_4640_9dd1_1053ed8b1be4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e6c11338_7d9f_4640_9dd1_1053ed8b1be4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Performance management</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e7071912_cd6c_471d_996c_253471fe4c9a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e7071912_cd6c_471d_996c_253471fe4c9a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Racism, discrimination and violence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e8e2920c_0f52_4e78_9683_d0c0e1e18e65 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e8e2920c_0f52_4e78_9683_d0c0e1e18e65">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Insufficient educational infrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e95118b4_bed1_4f24_bdcd_4f6ea2f65aa8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e95118b4_bed1_4f24_bdcd_4f6ea2f65aa8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Hypospadias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_eadda55d_b8c9_419a_a308_c1c77635ffea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_eadda55d_b8c9_419a_a308_c1c77635ffea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Inadequate budget for healthy meals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_edb42815_1f25_4d96_937a_d6051519e1ae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_edb42815_1f25_4d96_937a_d6051519e1ae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a0dfddb1_4156_4793_bbbf_dde3f223b135"/>
+        <rdfs:label xml:lang="en">Adult day care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_effbd4a2_8a6e_4bdf_8a65_4b3b4dc45145 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_effbd4a2_8a6e_4bdf_8a65_4b3b4dc45145">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        <rdfs:label xml:lang="en">Proximity to medical services</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f19a2884_d4fd_48ea_97b3_bc5a407fafae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f19a2884_d4fd_48ea_97b3_bc5a407fafae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7"/>
+        <rdfs:label xml:lang="en">Negative Influence on biological response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f23f59e1_c64a_46dc_8652_29ca1f096f52 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f23f59e1_c64a_46dc_8652_29ca1f096f52">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Racial discrimination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f3a37021_d185_40a7_a514_3d88198952df -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f3a37021_d185_40a7_a514_3d88198952df">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+        <rdfs:label xml:lang="en">Lack of role clarity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f5276a41_587f_46c4_a613_9c21402273a1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f5276a41_587f_46c4_a613_9c21402273a1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae9582c9_ec88_47ca_aad9_6d00dbb7c352"/>
+        <rdfs:label xml:lang="en">Emergency service wait time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f651036f_d83c_4c2d_9917_1755c61b84e7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_115e6944_019a_4926_a1d7_6fda81adbb52"/>
+        <rdfs:label xml:lang="en">Social and community factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f7950c7d_2083_4e1f_a30c_8e5d46be86ea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f7950c7d_2083_4e1f_a30c_8e5d46be86ea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+        <rdfs:label xml:lang="en">Cultural factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f992a629_ae29_43f2_b085_a39c7c05e2b3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f992a629_ae29_43f2_b085_a39c7c05e2b3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+        <rdfs:label xml:lang="en">Instability of supply</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_fc3f993f_d89f_4790_9632_9c6f182faf55 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_fc3f993f_d89f_4790_9632_9c6f182faf55">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4c1a811d_7782_4779_8755_a80055ac3613"/>
+        <rdfs:label xml:lang="en">Frustration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_fe312978_c5aa_43b7_b9ba_b21c71971ffa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_fe312978_c5aa_43b7_b9ba_b21c71971ffa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a7e2b744_771f_486d_960e_dd75f5599f06"/>
+        <rdfs:label xml:lang="en">Anxiety</rdfs:label>
+    </owl:Class>
+    <rdf:Description>
+        <ontodebug:axiom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OWLClass_af4eb7a5_2329_4f26_aa23_5b70cc2eb1b8 SubClassOf OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773</ontodebug:axiom>
+        <ontodebug:type rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontodebug:type>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_014f7bd9_79d6_4202_b28a_81f6781f247d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e605bd3_4010_4b51_aa94_5a4fc5822648"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_29aa2391_4b1c_4ffc_b647_4366216b5d43"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_43a7b706_9638_4db4_970e_4d14a5b98db6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_72b4942a_50ae_49ae_afcf_2e02b823991f"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0684082e_0ce1_4277_a809_e22ff2dd468d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_07862a5d_7e39_4534_8649_00f6bac91bd6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ae9582c9_ec88_47ca_aad9_6d00dbb7c352"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_06fb058f_2447_4750_b321_539d45ebf92e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_09f93e1f_2b63_4a14_aed5_a8fd5fc3df6e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_13580195_6201_44c4_9ce5_2817165a0d12"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_204948af_a953_46f3_82cb_6b05458fa98a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_20fdd9ef_2896_4da8_a05d_6b1e3db01a31"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2e608324_409f_4699_805e_e57736f480fc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3ba55da1_895d_4ee4_a9d7_5ade24dfef7b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_474d6501_0c3c_4f0f_a9b3_b644fe429a34"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_577bd689_9ac3_479d_a9c1_328ee4fe237f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_598d6e78_3355_4e0b_9b10_b356381ab453"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6181540d_46c8_4f4c_a01d_bc2abae6664a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7679379b_7527_4a1e_b012_4d56b31f7b19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_76a8fcbb_9fe7_4760_9cef_119661362b26"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_87f270f0_16a1_4eb0_9921_b2d10f0ec2a0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8e0a7324_b691_4af6_8298_efc6af4fc331"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9ea34334_4b11_4548_a943_0ea3e018d2a3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a877f226_85d8_4f50_b37a_a9993a8aaea5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b361582a_3f64_4168_a1f0_5929e3dd1043"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e379ca3a_d4df_4f48_b17c_0771d006cda1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e7071912_cd6c_471d_996c_253471fe4c9a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_fe312978_c5aa_43b7_b9ba_b21c71971ffa"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_06fb058f_2447_4750_b321_539d45ebf92e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_204948af_a953_46f3_82cb_6b05458fa98a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_474d6501_0c3c_4f0f_a9b3_b644fe429a34"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_9ea34334_4b11_4548_a943_0ea3e018d2a3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e7071912_cd6c_471d_996c_253471fe4c9a"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_08d3474f_4a0c_4471_80d0_cee0e6ca7b19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3907695e_db14_4178_a677_7fcf4fc9ad46"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_43aed4d9_86c4_4c55_829a_0e53317bce85"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6de85f98_7908_497a_8efb_54ded0deb3cd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_896d3361_9714_4f70_9347_0b6c55e3a39d"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_099d9b8a_ccbb_4dd1_bb04_680395201bb3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2406d4dd_ea77_4ca4_b949_f2690fead04d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2803b396_3afd_4b8d_9c96_ba736b8a370a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2c9c7432_65c7_4619_b03e_53da0bd27a3b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_336cfb35_91af_4b13_a5a8_f593b89941f2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8913977c_79d3_4962_8604_8060df38eca3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_895fca5f_2170_4580_a106_127eabc85195"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8d01307e_4ae4_45e2_a9dd_1a7b703be51e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_934bee90_0e23_41d4_b915_73316aa2a12d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ad2403d6_3907_4a0b_8f8d_a42ccd9e646f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_ca61ceee_4189_429a_b2b2_acddd869b93e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_e19896bc_e7cb_4da2_8416_fe1223de33f9"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0ac0a5a5_39ae_4881_b86b_9a66baa198f3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0d0b05e8_9877_4508_9da4_12a8a8810477"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_308b8bf6_ab04_45ff_aab3_5cec5904abd3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_378bb682_0518_4f69_bcc0_e3752c380557"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3ba55da1_895d_4ee4_a9d7_5ade24dfef7b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3eb67355_c99d_455e_9d2c_131b92f06e6c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5dd91ed6_e253_41f6_9943_d5c5c39a86d5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5e871d47_7f30_4c12_911f_afa5659e87fa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_68d00378_36f3_4079_8015_455940f7c177"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6c0d7b03_4c63_4c14_b397_d12a95d604e7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_78a8f240_a959_4691_8e80_dece994309b1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_84a847ae_ebb4_427a_9250_7a8eec1a0446"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_8e0a7324_b691_4af6_8298_efc6af4fc331"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a0dfddb1_4156_4793_bbbf_dde3f223b135"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_acc934dd_06be_4d7f_a87e_8436025890eb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b665e858_561d_4615_8c98_02d04ec90fea"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d429d8bf_8e8a_46dc_8d51_187071336ffe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f19a2884_d4fd_48ea_97b3_bc5a407fafae"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0ac0a5a5_39ae_4881_b86b_9a66baa198f3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_378bb682_0518_4f69_bcc0_e3752c380557"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3ba55da1_895d_4ee4_a9d7_5ade24dfef7b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_5dd91ed6_e253_41f6_9943_d5c5c39a86d5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6c0d7b03_4c63_4c14_b397_d12a95d604e7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_78a8f240_a959_4691_8e80_dece994309b1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_84a847ae_ebb4_427a_9250_7a8eec1a0446"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d429d8bf_8e8a_46dc_8d51_187071336ffe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f19a2884_d4fd_48ea_97b3_bc5a407fafae"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_0e03486a_1772_427a_adf1_158cdb7646c5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b72737bc_0015_4b13_8bfe_f0d939025564"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_c81fad6b_0f90_45b1_8071_d676d78fa773"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9f9a649_1713_4dff_9af1_c7a27d7fb398"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_19c3e874_2437_4e47_bcb8_a27cefcf15e0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2ae7e714_c203_481c_aba3_11273ec9b367"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_4986c488_08c2_4604_833d_1d47928d97d5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_60ae7511_8020_4a73_9c0c_56f1fc8ea5df"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_abbbc2b4_b455_4f21_b926_f2da48813f58"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_deb63c3f_8d79_4a19_9bf3_24004f0c2346"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_f5276a41_587f_46c4_a613_9c21402273a1"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_1d3467e1_93cf_4416_a738_85848a2f1970"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2c9c0f2b_f1e1_4fdd_8442_71c092a0f00e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_33da7f5a_ca9b_4c77_a191_59e2a20b1817"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_3794d3f6_1408_4a14_81ef_4e1994ac3692"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_60d2df48_990d_4b2f_bdcb_ae3e94d7181b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_63179a55_918b_4e8f_a226_5c55a17d4d8d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_73ad6ae0_e9fc_4b9c_84f3_eb528e255d30"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7a2a1dc1_18b5_4173_ba49_4f23ea7ddfbe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_92509b58_db20_4e25_ba58_d279f7265d98"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a03bd9ad_81fd_4615_82a3_c3aaf6beb973"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a0b9d5a9_dbf5_46cc_a42a_872280e7f8c7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_a9848d8a_8b50_427c_a8fd_c0199442e712"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_b441117e_5291_4fac_bbea_6beac4a4f481"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_bf564d0b_50f1_4cd7_96c9_e1f8957153dd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d65c356f_9c32_47cf_8c00_0cf4d8c768e7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_d9a8b492_c08e_49a4_a504_885fdb7aed0d"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_20d556fb_dccb_404d_8189_ebeb93cc78bc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_2437b86d_169d_4eca_9e3d_38b892c18662"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_27b03959_7c47_4bcc_a58b_85154dcb4cce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_6e35a209_96cc_4288_8d22_0e30697c740e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_7d55ca05_f5c4_44ed_8e0d_7b2aa3630635"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/navyarenjith/ontologies/2022/6/untitled-ontology-67#OWLClass_fc3f993f_d89f_4790_9632_9c6f182faf55"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
